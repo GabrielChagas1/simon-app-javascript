@@ -32,3 +32,7 @@ body{
 }
 
 .color-part{
+    height: 13.12em;
+    width: 13.12em;
+    position: absolute;
+}
