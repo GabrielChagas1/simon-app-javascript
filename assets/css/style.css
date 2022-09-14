@@ -9,3 +9,15 @@ body{
     background-color: #2f70ff;
 }
 
+.wrapper{
+    background-color: #fff;
+    height: 37.5em;
+    width: 37.5em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: .5em;
+}
+
+.simon{
