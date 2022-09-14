@@ -48,3 +48,9 @@ body{
     top: 1.87em;
     right: 1.87em;
 }
+.color3{
+    background-color: #01018a;
+    bottom: 1.87em;
+    right: 1.87em;
+    border-radius: 0 0 13em 0;
+}
