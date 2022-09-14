@@ -36,3 +36,9 @@ body{
     width: 13.12em;
     position: absolute;
 }
+.color1{
+    background-color: #027802;
+    border-radius: 13em 0 0 0;
+    top: 1.87em;
+    left: 1.87em;
+}
