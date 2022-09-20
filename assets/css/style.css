@@ -103,3 +103,13 @@ body{
     justify-content: center;
 }
 
+.container button{
+    background-color: #fff;
+    font-size: 1.2em;
+    border: none;
+    outline: none;
+    padding: 1em 2em;
+    border-radius: .3em;
+    cursor: pointer;
+}
+
