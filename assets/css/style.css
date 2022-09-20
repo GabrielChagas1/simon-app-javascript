@@ -113,3 +113,13 @@ body{
     cursor: pointer;
 }
 
+.container p{
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+.container span{
+    font-weight: 600;
+}
+
