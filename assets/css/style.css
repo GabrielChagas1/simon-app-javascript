@@ -87,3 +87,7 @@ body{
     place-items: center;
     border-radius: .3em;
 }
+.hide{
+    display: none;
+}
+
