@@ -24,3 +24,4 @@ const colors = {
     new: "#fafa18",
   },
 };
+let randomColors = [];
