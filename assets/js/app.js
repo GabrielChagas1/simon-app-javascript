@@ -26,3 +26,5 @@ const colors = {
 };
 let randomColors = [];
 let pathGeneratorBool = false;
+let count,
+  clickCount = 0;
