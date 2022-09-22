@@ -38,3 +38,10 @@ startButton.addEventListener("click", () => {
   container.classList.add("hide");
   pathGenerate();
 });
+//Function to decide the sequence
+const pathGenerate = () => {
+  randomColors.push(generateRandomValue(colors));
+  count = randomColors.length;
+  pathGeneratorBool = true;
+  pathDecide(count);
+};
