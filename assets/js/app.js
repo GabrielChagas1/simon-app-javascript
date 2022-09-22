@@ -25,3 +25,4 @@ const colors = {
   },
 };
 let randomColors = [];
+let pathGeneratorBool = false;
