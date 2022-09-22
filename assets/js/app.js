@@ -28,3 +28,13 @@ let randomColors = [];
 let pathGeneratorBool = false;
 let count,
   clickCount = 0;
+//Function to start game
+startButton.addEventListener("click", () => {
+  count = 0;
+  clickCount = 0;
+  randomColors = [];
+  pathGeneratorBool = false;
+  wrapper.classList.remove("hide");
+  container.classList.add("hide");
+  pathGenerate();
+});
