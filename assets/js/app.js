@@ -50,3 +50,16 @@ const generateRandomValue = (obj) => {
   let arr = Object.keys(obj);
   return arr[Math.floor(Math.random() * arr.length)];
 };
+//Function to play the sequence
+const pathDecide = async (count) => {
+  countValue.innerText = count;
+  for (let i of randomColors) {
+    let currentColor = document.querySelector(`.${i}`);
+    await delay(500);
+    currentColor.style.backgroundColor = `${colors[i]["new"]}`;
+    await delay(600);
+    currentColor.style.backgroundColor = `${colors[i]["current"]}`;
+    await delay(600);
+  }
+  pathGeneratorBool = false;
+};
