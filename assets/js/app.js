@@ -45,3 +45,8 @@ const pathGenerate = () => {
   pathGeneratorBool = true;
   pathDecide(count);
 };
+//Function to get a random value from object
+const generateRandomValue = (obj) => {
+  let arr = Object.keys(obj);
+  return arr[Math.floor(Math.random() * arr.length)];
+};
