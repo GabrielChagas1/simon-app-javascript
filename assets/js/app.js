@@ -97,3 +97,12 @@ colorPart.forEach((element) => {
     }
   });
 });
+//Function when player executes wrong sequence
+const lose = () => {
+  result.innerHTML = `<span> Your Score: </span> ${count}`;
+  result.classList.remove("hide");
+  container.classList.remove("hide");
+  wrapper.classList.add("hide");
+  startButton.innerText = "Play Again";
+  startButton.classList.remove("hide");
+};
