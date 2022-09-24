@@ -69,3 +69,31 @@ async function delay(time) {
     setTimeout(resolve, time);
   });
 }
+//When user click on the colors
+colorPart.forEach((element) => {
+  element.addEventListener("click", async (e) => {
+    //if user clicks the same color then next level
+    if (pathGeneratorBool) {
+      return false;
+    }
+    if (e.target.classList[0] == randomColors[clickCount]) {
+      //Color blick effect on click
+      e.target.style.backgroundColor = `${
+        colors[randomColors[clickCount]]["new"]
+      }`;
+      await delay(500);
+      e.target.style.backgroundColor = `${
+        colors[randomColors[clickCount]]["current"]
+      }`;
+      //User click
+      clickCount += 1;
+      //Next level if number of valid clicks == count
+      if (clickCount == count) {
+        clickCount = 0;
+        pathGenerate();
+      }
+    } else {
+      lose();
+    }
+  });
+});
