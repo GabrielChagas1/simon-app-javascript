@@ -1,13 +1,13 @@
 <div align="center">
     <h1 align="center">Create Simon game using HTML, CSS and JS 🕹.</h1>
     <p>Criação de um site com tema sobre o jogo genius</p>
-    <img src="./design/preview.mp4" alt="Logo" width="800">
+    <img src="./design/preview.gif" alt="Logo" width="800">
 </div>
 
 ---
 
 <h3 align="center">
-  <a href="https://movie-guide-app-javascript.vercel.app/">Acessar demonstração</a>
+  <a href="https://simon-app-javascript.vercel.app/">Acessar demonstração</a>
 </h3>
 
 ## Índice
